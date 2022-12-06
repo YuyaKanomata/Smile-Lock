@@ -120,10 +120,8 @@ open class PasswordInputView: UIView {
         let borderWidth = radius * borderWidthRatio
         let circleRadius = radius - borderWidth
 
-        print("鹿：パスワード：キー：\(numberString)")
-
         if numberString.isEmpty {
-            print("鹿：パスワード：キー：空でした")
+            label.backgroundColor = .blue
             numberString = "0"
         }
 
