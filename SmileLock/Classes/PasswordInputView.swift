@@ -124,9 +124,9 @@ open class PasswordInputView: UIView {
             numberString = "0"
         }
 
-        backgroundColor = .blue
-        label.backgroundColor = .blue
-        circleBackgroundColor = .brown
+        backgroundColor = .red
+        label.backgroundColor = .red
+        circleBackgroundColor = .red
 
         numberString = "1"
 
