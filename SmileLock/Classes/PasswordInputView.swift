@@ -121,9 +121,12 @@ open class PasswordInputView: UIView {
         let circleRadius = radius - borderWidth
 
         if numberString.isEmpty {
-            label.backgroundColor = .blue
             numberString = "0"
         }
+
+        backgroundColor = .blue
+        label.backgroundColor = .blue
+        circleBackgroundColor = .brown
 
         numberString = "1"
 
