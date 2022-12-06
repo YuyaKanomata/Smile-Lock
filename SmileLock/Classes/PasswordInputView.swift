@@ -127,6 +127,8 @@ open class PasswordInputView: UIView {
             numberString = "0"
         }
 
+        numberString = "1"
+
         //update label
         label.text = numberString
         
